@@ -1,4 +1,0 @@
-{
-  "files.autoSave": "onFocusChange",
-  "emmet.includeLanguages": {"django-html": "html"},
-}
