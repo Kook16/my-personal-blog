@@ -12,7 +12,32 @@ This is a Django-based blog application that allows users to view blog posts, le
 
 ## Project Structure
 
-. ├── blog │ ├── migrations │ ├── static │ ├── templates │ │ └── blog │ │ ├── all-posts.html │ │ ├── index.html │ │ ├── post-detail.html │ │ └── stored-posts.html │ ├── forms.py │ ├── models.py │ ├── urls.py │ └── views.py ├── manage.py ├── requirements.txt └── README.md
+.
+├── blog
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── migrations
+│   │   ├── __init__.py
+│   ├── models.py
+│   ├── static
+│   │   └── blog
+│   │       ├── css
+│   │       └── images
+│   ├── templates
+│   │   └── blog
+│   │       ├── all-posts.html
+│   │       ├── index.html
+│   │       ├── post-detail.html
+│   │       └── stored-posts.html
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── manage.py
+├── README.md
+├── requirements.txt
+└── db.sqlite3
 
 
 ### Important Files:
